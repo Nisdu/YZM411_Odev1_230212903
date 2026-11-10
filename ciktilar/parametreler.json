@@ -1,0 +1,207 @@
+{
+  "calistirma_zamani": "2026-11-10T17:52:17",
+  "surumler": {
+    "python": "3.12.9",
+    "numpy": "2.4.4",
+    "opencv": "4.12.0",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.8",
+    "pillow": "11.3.0",
+    "platform": "macOS-27.2-arm64-arm-64bit"
+  },
+  "giris_dosyalari": {
+    "normal": "fotograflar/IMG_7106.JPG",
+    "golge": "fotograflar/IMG_7104.JPG",
+    "lamba": "fotograflar/IMG_7107.JPG"
+  },
+  "sahne": "230212903",
+  "aciklama": "Turuncu mandalina + çay bardağı + 'PentaPoint' yazılı prospektüs kartı + beyaz A4 kağıt, bej masa",
+  "goruntu_boyutu_HWC": [
+    5584,
+    4120,
+    3
+  ],
+  "hizalama": {
+    "yontem": "SIFT (1600 px kopya, histogram eşitleme) + oran testi 0.7 + RANSAC homografi (2 px); warpPerspective INTER_LINEAR; ortak dikdörtgene kırpma",
+    "referans": "IMG_7106.JPG",
+    "kirpma_xywh": [
+      48,
+      96,
+      4120,
+      5584
+    ],
+    "homografi": {
+      "golge": [
+        [
+          1.00393095,
+          -0.00548788,
+          -19.35227175
+        ],
+        [
+          0.01946914,
+          0.99969613,
+          -0.56453388
+        ],
+        [
+          3.29e-06,
+          7e-07,
+          1.0
+        ]
+      ],
+      "lamba": [
+        [
+          1.00493447,
+          -0.00327263,
+          30.96637758
+        ],
+        [
+          0.00889892,
+          1.0062615,
+          -68.47449606
+        ],
+        [
+          -2.5e-07,
+          -2.7e-07,
+          1.0
+        ]
+      ]
+    },
+    "olcumler": [
+      {
+        "foto": "golge",
+        "eşleşme": 270,
+        "RANSAC_inlier": 246,
+        "hizalama_öncesi_kayma_medyan_px": 57.69628143310547,
+        "hizalama_öncesi_kayma_max_px": 66.1929702758789,
+        "hizalama_sonrası_hata_medyan_px": 0.9405695199966431,
+        "hizalama_sonrası_hata_%90_px": 2.598806381225586
+      },
+      {
+        "foto": "lamba",
+        "eşleşme": 250,
+        "RANSAC_inlier": 224,
+        "hizalama_öncesi_kayma_medyan_px": 41.214317321777344,
+        "hizalama_öncesi_kayma_max_px": 68.63323974609375,
+        "hizalama_sonrası_hata_medyan_px": 0.912522554397583,
+        "hizalama_sonrası_hata_%90_px": 2.3042633533477783
+      }
+    ]
+  },
+  "kamera_notu": "iPhone 16 Pro Max, 24 MP JPEG (4284x5712); otomatik pozlama ve otomatik beyaz dengesi açık (EXIF: ExposureMode=0, WhiteBalance=0, ISO=160, ExposureTime=0.01 s); flaş kapalı; kamera çekimler arasında hafif hareket ettiği için SIFT+RANSAC ile hizalandı; gölge kaynağı: tavan ışığının cisimle perdelenmesi; lamba: üstten tutulan soğuk beyaz LED ışık.",
+  "exif": {
+    "normal": {
+      "Make": "Apple",
+      "Model": "iPhone 16 Pro Max",
+      "DateTimeOriginal": "2026:11:09 17:26:21",
+      "ExposureBiasValue": "0.0",
+      "Flash": "16",
+      "ExposureTime": "0.01",
+      "FNumber": "1.7799999713880652",
+      "ExposureProgram": "2",
+      "ISOSpeedRatings": "160",
+      "ExposureMode": "0",
+      "WhiteBalance": "0"
+    },
+    "golge": {
+      "Make": "Apple",
+      "Model": "iPhone 16 Pro Max",
+      "DateTimeOriginal": "2026:11:09 17:26:10",
+      "ExposureBiasValue": "0.0",
+      "Flash": "16",
+      "ExposureTime": "0.01",
+      "FNumber": "1.7799999713880652",
+      "ExposureProgram": "2",
+      "ISOSpeedRatings": "160",
+      "ExposureMode": "0",
+      "WhiteBalance": "0"
+    },
+    "lamba": {
+      "Make": "Apple",
+      "Model": "iPhone 16 Pro Max",
+      "DateTimeOriginal": "2026:11:09 17:26:39",
+      "ExposureBiasValue": "0.0",
+      "Flash": "16",
+      "ExposureTime": "0.01",
+      "FNumber": "1.7799999713880652",
+      "ExposureProgram": "2",
+      "ISOSpeedRatings": "160",
+      "ExposureMode": "0",
+      "WhiteBalance": "0"
+    }
+  },
+  "parametreler": {
+    "PIKSELLER": [
+      [
+        2180,
+        2520
+      ],
+      [
+        2320,
+        2580
+      ],
+      [
+        1750,
+        3400
+      ]
+    ],
+    "KOMSULUK": 5,
+    "ORNEK_BOLGE": [
+      2140,
+      2460,
+      220,
+      200
+    ],
+    "RGB_ESIK": {
+      "R": [
+        150,
+        215
+      ],
+      "G": [
+        100,
+        155
+      ],
+      "B": [
+        40,
+        90
+      ]
+    },
+    "HSV_ESIK": {
+      "H": [
+        12,
+        22
+      ],
+      "S": [
+        120,
+        205
+      ],
+      "V": [
+        140,
+        220
+      ]
+    },
+    "PARLAKLIK_B": 40,
+    "GAMALAR": [
+      0.5,
+      2.0
+    ],
+    "YAZI_BOLGESI": [
+      2380,
+      2940,
+      640,
+      760
+    ],
+    "KUCULTME": 4
+  },
+  "tahminler": {
+    "adim4_piksel": "Seçtiğim turuncu mandalina ve beyaz A4 kağıdı piksellerinin gölge düşürüldüğünde kararacağını (R, G, B sayılarının küçüleceğini), üstten lamba tutulduğunda ise parlayarak artacağını düşünüyorum. Aynı bölgedeki 5×5 komşu pikseller de birbirine yakın değerler alacaktır.",
+    "adim5_esik": "Sabit RGB eşikleriyle yaptığım maskenin normal fotoğrafta mandalinayı iyi yakalayacağını, ancak gölgede mandalina kararınca piksellerin çoğunu kaçıracağını düşünüyorum. HSV maskesinin ise ışık değişse bile mandalinanın turuncu tonunu tanımaya devam edeceğini ama sıcak/sarımsı masa ve duvar yüzeylerinden de parçalar seçebileceğini tahmin ediyorum.",
+    "adim6_parlaklik": "Görüntüye +40 parlaklık eklediğimde tüm fotoğrafın açılacağını ve ortalamanın yaklaşık 40 puan yükseleceğini tahmin ediyorum. Beyaz kağıt gibi çok açık renkli bölgelerin 255'i geçerek kırpılacağını ve ortalamayı 150.86'nın biraz altına düşüreceğini öngörüyorum.",
+    "adim6_gama": "γ = 0.5 uygulandığında gölgede kalan masa ve çay bardağı kısımlarının açılıp genel ortalamanın yaklaşık 168 civarına yükseleceğini tahmin ediyorum. γ = 2.0 uygulandığında ise koyu ve orta tonların iyice siyaha yaklaşarak ortalamayı 48 civarına düşüreceğini öngörüyorum.",
+    "adim7_kucultme": "A4 kağıdı üzerindeki 'PentaPoint' yazılı prospektüs kartını 1/4 oranında küçültüp geri büyüttüğümde üstteki küçük açıklama yazılarının okunmaz hale geleceğini, büyük başlığın ise okunacağını düşünüyorum. INTER_NEAREST yönteminde harflerin tırtıklı ve kopuk görüneceğini, INTER_AREA yönteminde ise bulanıklaşsa bile harf şekillerinin daha bütün kalacağını tahmin ediyorum."
+  },
+  "ortalama_tahmini": {
+    "parlaklik_b+40": 150.86,
+    "gama_0.5": 168.13,
+    "gama_2.0": 48.19
+  }
+}

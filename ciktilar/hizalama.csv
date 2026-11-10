@@ -1,0 +1,3 @@
+﻿foto,eşleşme,RANSAC_inlier,hizalama_öncesi_kayma_medyan_px,hizalama_öncesi_kayma_max_px,hizalama_sonrası_hata_medyan_px,hizalama_sonrası_hata_%90_px
+golge,270,246,57.69628143310547,66.1929702758789,0.9405695199966431,2.598806381225586
+lamba,250,224,41.214317321777344,68.63323974609375,0.912522554397583,2.3042633533477783

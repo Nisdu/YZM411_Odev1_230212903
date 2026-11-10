@@ -1,0 +1,28 @@
+﻿deney,koşul,ölçüt,değer
+Adım 5 eşik,normal / RGB,alan oranı %,0.5228096224997913
+Adım 5 eşik,normal / RGB,örnek bölgede seçilen %,87.74545454545455
+Adım 5 eşik,normal / HSV,alan oranı %,1.172233600856817
+Adım 5 eşik,normal / HSV,örnek bölgede seçilen %,95.29318181818182
+Adım 5 eşik,golge / RGB,alan oranı %,0.0737761496091468
+Adım 5 eşik,golge / RGB,örnek bölgede seçilen %,17.943181818181817
+Adım 5 eşik,golge / HSV,alan oranı %,0.2752620176927143
+Adım 5 eşik,golge / HSV,örnek bölgede seçilen %,56.75
+Adım 5 eşik,lamba / RGB,alan oranı %,0.5085481750911064
+Adım 5 eşik,lamba / RGB,örnek bölgede seçilen %,79.71818181818182
+Adım 5 eşik,lamba / HSV,alan oranı %,0.5604518457729435
+Adım 5 eşik,lamba / HSV,örnek bölgede seçilen %,88.15
+Adım 6 dönüşüm,parlaklik_b+40,tahmin,150.86
+Adım 6 dönüşüm,parlaklik_b+40,ölçülen ortalama,150.84629818146624
+Adım 6 dönüşüm,parlaklik_b+40,255'te kırpılan kanal değeri %,0.039015773221687484
+Adım 6 dönüşüm,gama_0.5,tahmin,168.13
+Adım 6 dönüşüm,gama_0.5,ölçülen ortalama,158.4942017372732
+Adım 6 dönüşüm,gama_0.5,255'te kırpılan kanal değeri %,
+Adım 6 dönüşüm,gama_2.0,tahmin,48.19
+Adım 6 dönüşüm,gama_2.0,ölçülen ortalama,64.16462616600039
+Adım 6 dönüşüm,gama_2.0,255'te kırpılan kanal değeri %,
+Adım 7 küçültme,orijinal,orijinale ort. mutlak fark,0.0
+Adım 7 küçültme,orijinal,kenar enerjisi,9.258013980263158
+Adım 7 küçültme,INTER_NEAREST,orijinale ort. mutlak fark,9.310259046052632
+Adım 7 küçültme,INTER_NEAREST,kenar enerjisi,12.06814144736842
+Adım 7 küçültme,INTER_AREA,orijinale ort. mutlak fark,6.360746984649123
+Adım 7 küçültme,INTER_AREA,kenar enerjisi,8.381850328947369
